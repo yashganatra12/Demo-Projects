@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+/******* Fonts Face CSS Start **********/
+
+/********* Fonts Face CSS End **********/
+/******* Common Element CSS Start ******/
+* {-o-transition:.5s;-ms-transition:.5s;-moz-transition:.5s;-webkit-transition:.5s;transition:.5s;}
+*, *:before, *:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+*							{ margin: 0px; padding: 0px;}
+body						{  font-size:14px;}
+.wrapper					{ margin: 0px auto; width: 1170px; padding: 30px;}
+.clear						{ clear:both;}
+img							{ border: 0px;}
+ul,ol						{ list-style: none;}
+a							{ text-decoration: none; outline: none;}
+a:focus, a:active,a:visited	{ outline: none; border: 0px;}
+/******* Common Element CSS End *********/
+/*Common FrameWork Start*/
+table  						{ width: 100%; border-collapse: collapse; }
+label 						{ color: #fff; font-size: 13px; line-height: 16px;  }
+td 							{ padding: 5px 10px;  }
+select 						{ color: #111; text-align: center; margin: 5px 10px 0px 0px; background-color: #fff; padding: 3px 15px; }
+textarea 					{ width: 300px;  height:80px; padding: 10px; }
+.heading h1 				{ text-align: center;color: #6a5acd; text-decoration: underline; text-transform: uppercase; margin: 20px; }
+.reg-form 					{ width: 70%; background-color: #6a5acd; padding: 10px; margin: 0px auto;	 }
+.left-col label 			{ text-transform: uppercase; }
+.radio-button 				{ width: 15px; height: 15px; margin: 5px; }
+.check-box 					{ width: 15px; height:15px; margin:5px 5px 0px 5px; }
+#qualification-top 			{ vertical-align: top; padding-top: 15px; }
+.qualification 				{ width: 60%; }
+.qualification tr td 		{ text-align: center; padding: 5px;	 }
+.qualification tr td.sl-no 		{ text-align: left;	 }
+.qualification tr td.examination { text-align: left; }
+button 						{   border-radius: 8px; font-size: 14px; line-height: 16px; padding: 2px 10px;  }
+.button						{ text-align: center;  }
+button:hover 				{ background-color: #ccc; }
+
+
+
+
+
+
+/****************End css***********************/
