@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+/******* Fonts Face CSS Start **********/
+@font-face {
+    font-family: 'Exo-Regular';
+    src: url('../fonts/Exo-Regular.eot');
+    src: url('../fonts/Exo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Exo-Regular.woff2') format('woff2'),
+        url('../fonts/Exo-Regular.woff') format('woff'),
+        url('../fonts/Exo-Regular.ttf') format('truetype'),
+        url('../fonts/Exo-Regular.svg#Exo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo-Medium';
+    src: url('../fonts/Exo-Medium.eot');
+    src: url('../fonts/Exo-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Exo-Medium.woff2') format('woff2'),
+        url('../fonts/Exo-Medium.woff') format('woff'),
+        url('../fonts/Exo-Medium.ttf') format('truetype'),
+        url('../fonts/Exo-Medium.svg#Exo-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo-Bold';
+    src: url('../fonts/Exo-Bold.eot');
+    src: url('../fonts/Exo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Exo-Bold.woff2') format('woff2'),
+        url('../fonts/Exo-Bold.woff') format('woff'),
+        url('../fonts/Exo-Bold.ttf') format('truetype'),
+        url('../fonts/Exo-Bold.svg#Exo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/********* Fonts Face CSS End **********/
+/******* Common Element CSS Start ******/
+* {-o-transition:.5s;-ms-transition:.5s;-moz-transition:.5s;-webkit-transition:.5s;transition:.5s;}
+*, *:before, *:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+*							{ margin: 0px; padding: 0px;}
+body						{  font-size:14px;}
+.wrapper					{ margin: 0px auto; width: 1170px; padding: 40px 0px;}
+.clear						{ clear:both;}
+img							{ border: 0px;}
+ul,ol						{ list-style: none;}
+a							{ text-decoration: none; outline: none;}
+a:focus, a:active,a:visited	{ outline: none; border: 0px;}
+/******* Common Element CSS End *********/
+/*Common FrameWork Start*/
+.header h1                  { text-align: center; font-family: Exo-Bold; font-size: 24px; line-height: 35px; text-transform: uppercase; }
+.header p                   { text-align:center; font-family: Exo-Medium; font-size: 18px; line-height: 25px;   }
+.services                   { width: 100%; padding: 30px 0px;text-align: center;}
+.services i                 { margin: 25px 0px;  text-align: center; font-size: 40px; line-height: 46px; color: #656565;}
+.services div               { padding: 20px 10px; width: 250px;  border: 2px solid #efefef; border-radius: 7px; display: inline-block; margin: 0px 7px; text-align: center; min-height: 280px; vertical-align: middle; }
+.services div p             { font-family: Exo-Regular; font-size: 16px; line-height: 18px; vertical-align: middle; margin:10px; }
+.button                     { text-align: center; margin: 10px 0px; }
+.button a                   { display: inline-block; padding:15px 40px; background-color: green; text-transform: uppercase; text-decoration: none; color:#fff;   font-family: Exo-Medium; font-size: 16px; }
+.button a:hover             { background-color: #0c1d3d;  }
+
+
+
+
+
+
+
+
+/****************End css***********************/

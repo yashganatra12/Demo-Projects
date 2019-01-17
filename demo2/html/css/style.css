@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+/******* Fonts Face CSS Start **********/
+@font-face {
+    font-family: 'Cantarell-Bold';
+    src: url('../fonts/Cantarell-Bold.eot');
+    src: url('../fonts/Cantarell-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cantarell-Bold.woff2') format('woff2'),
+        url('../fonts/Cantarell-Bold.woff') format('woff'),
+        url('../fonts/Cantarell-Bold.ttf') format('truetype'),
+        url('../fonts/Cantarell-Bold.svg#Cantarell-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cantarell-Normal';
+    src: url('../fonts/Cantarell-Regular.eot');
+    src: url('../fonts/Cantarell-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cantarell-Regular.woff2') format('woff2'),
+        url('../fonts/Cantarell-Regular.woff') format('woff'),
+        url('../fonts/Cantarell-Regular.ttf') format('truetype'),
+        url('../fonts/Cantarell-Regular.svg#Cantarell-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cantarell Bold-Italic';
+    src: url('../fonts/Cantarell-BoldOblique.eot');
+    src: url('../fonts/Cantarell-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cantarell-BoldOblique.woff2') format('woff2'),
+        url('../fonts/Cantarell-BoldOblique.woff') format('woff'),
+        url('../fonts/Cantarell-BoldOblique.ttf') format('truetype'),
+        url('../fonts/Cantarell-BoldOblique.svg#Cantarell-BoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cantarell-Italic';
+    src: url('../fonts/Cantarell-Oblique.eot');
+    src: url('../fonts/Cantarell-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cantarell-Oblique.woff2') format('woff2'),
+        url('../../fonts/Cantarell-Oblique.woff') format('woff'),
+        url('../fonts/Cantarell-Oblique.ttf') format('truetype'),
+        url('../fonts/Cantarell-Oblique.svg#Cantarell-Oblique') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+/********* Fonts Face CSS End **********/
+/******* Common Element CSS Start ******/
+* {-o-transition:.5s;-ms-transition:.5s;-moz-transition:.5s;-webkit-transition:.5s;transition:.5s;}
+*, *:before, *:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+*							{ margin: 0px; padding: 0px;}
+body						{ font-size:14px;}
+.wrapper					{ margin: 0px auto; width: 1170px;}
+.clear						{ clear:both;}
+img							{ border: 0px;}
+ul,ol						{ list-style: none;}
+a							{ text-decoration: none; outline: none;}
+a:focus, a:active,a:visited	{ outline: none; border: 0px;}
+/******* Common Element CSS End *********/
+/*Common FrameWork Start*/
+/***************** header section Start *****************/ 
+.header						{ margin: 20px; }
+.logo 						{ float: left; margin: 30px 0px 0px 30px; }
+.header .header-menu		{ float: right; margin: 20px 20px 20px 0px; }
+.follow-us 					{  text-align: center;}
+.follow-us p				{ display: inline-block; margin:5px 10px; font-size: 20px; line-height: 30px; color: #0D3197; }
+.follow-us a i				{ display: inline-block; border: 1px solid transparent	; border-radius: 50%; padding: 5px; margin: 5px;   }
+.fa 						{color: #fff;}
+.menu						{ float: right; }
+.menu ul li 				{ display: inline-block;  text-decoration: none;margin: 5px; font-size: 18px; line-height: 25px;  }
+.menu ul li a 				{ color: #0D3197; }
+.menu ul li a:hover 		{ color: #FF0707; }
+
+/***************** header section end *****************/ 
+
+/***************** banner section Start *****************/ 
+
+.banner-image 				{ background-image: url('../images/banner5.jpg'); height: 600px; width: 100%; background-size: cover; display:inline-block; text-align: center;  padding:100px 0px; }
+.banner-image .banner-content {text-align: center; display: inline-block;  max-width: 700px; }
+.banner-image .banner-content h1 { font-size: 50px; line-height: 60px;color: #A0522D; }
+.banner-image .banner-content h3 { font-size: 24px; line-height: 36px; color: #fff; }
+.banner-image .banner-content p { margin: 15px 0px;  font-size:20px; line-height:28px; font-family:Cantarell-Normal; color: #000;}
+.button 						{ font-size: 20px; line-height: 30px; text-decoration: none;  padding: 10px 30px; background-color: #330BF9; color: #fff; border-radius: 10px; display: inline-block; }
+.button:hover 					{ background-color: #821198; }
+
+/***************** banner section end *****************/ 
+
+/***************** more-info section Start *****************/ 
+
+.more-info 						{ padding: 20px  50px;margin: 20px 0px 0px 0px; background-color: #E8E8E8; }
+.more-info h1 					{ font-size: 40px; line-height: 60px; display: inline-block; color: #F56A0E; }
+.more-info .button 				{ float: right; }
+.more-info .button 				{ margin:5px 0px;}
+
+/***************** more-info section end *****************/ 
+
+/***************** middle section Start *****************/ 
+
+.middle-content 				{ width: 100%;  margin: 20px 0px; display: inline-block; }
+.middle-content .left-content 	{ width: 48%;  background-color: #E6E6E1;  float: left; display: inline-block;   }
+.middle-content .right-content 	{ width: 48%;  background-color: #B5B4B1;   float: right;   }
+.product-image					{ margin: 20px; display: inline-block; float: left; }
+.product-content				{ float: right; display: inline-block; width: 50%; text-align: center; margin: 10px 20px;    }
+.product-content .product-title { font-size: 24px; line-height: 36px; color: #330BF9;  }
+.product-content p 				{ font-size: 20px; line-height: 30px; font-family: Cantarell-Normal; }
+.left-content .first-product  	{ width: 100%; }
+hr 								{ border-top: 2px dotted; margin: 0px 20px; }
+.second-product .product-content{ float: left; }
+.form 							{ margin: 110px 50px; }
+input,textarea					{ margin: 10px 0px; font-size: 16px; line-height: 20px; resize: none; }
+.form .input-name 				{ width: 100%; height: 50px; padding: 10px; }
+.form .input-email				{ width: 100%; height: 50px; padding: 10px;}
+.form .input-message			{ width: 100%; height: 250px; padding: 10px; }
+.form .submit-button			{ padding: 20px 50px; background-color: #330BF9; border-radius: 10px; border-color: transparent; text-align: center; margin: 20px auto; display: block; color: #fff; font-size: 20px; line-height: 30px;}
+
+/***************** middle section end *****************/ 
+
+/***************** footer section Start *****************/ 
+
+.footer-content 				{ text-align: center; margin: 10px 0px 0px 0px;  }
+.footer-content h2 				{ font-size: 24px; line-height: 36px;  }
+.footer-content a img			{ margin: 0px 60px; display:inline-block;vertical-align: middle; text-align: center; }
+
+/***************** footer section end *****************/ 
+
+/***************** copyright section Start *****************/ 
+
+.copyright						{ background-color: #000080	; display: inline-block; width: 100%; color: #fff; margin: 10px 0px 0px 0px;}
+.copyright .copyright-text		{ float: left; margin: 10px 100px; font-size: 20px; line-height: 30px; }
+.copyright .follow-us 			{ padding: 5px 20px; float: right;  } 
+.copyright .follow-us p 		{ color: #fff; }
+
+/***************** copyright section end *****************/ 
+
+/****************End css***********************/

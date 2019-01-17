@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+/******* Fonts Face CSS Start **********/
+@font-face {
+    font-family: 'Charm-Regular';
+    src: url('../fonts/Charm-Regular.eot');
+    src: url('../fonts/Charm-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Charm-Regular.woff2') format('woff2'),
+        url('../fonts/Charm-Regular.woff') format('woff'),
+        url('../fonts/Charm-Regular.ttf') format('truetype'),
+        url('../fonts/Charm-Regular.svg#Charm-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Charm-Bold';
+    src: url('../fonts/Charm-Bold.eot');
+    src: url('../fonts/Charm-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Charm-Bold.woff2') format('woff2'),
+        url('../fonts/Charm-Bold.woff') format('woff'),
+        url('../fonts/Charm-Bold.ttf') format('truetype'),
+        url('../fonts/Charm-Bold.svg#Charm-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+/********* Fonts Face CSS End **********/
+/******* Common Element CSS Start ******/
+
+* {-o-transition:.5s;-ms-transition:.5s;-moz-transition:.5s;-webkit-transition:.5s;transition:.5s;}
+*, *:before, *:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+*							{ margin: 0px; padding: 0px;}
+body						{ font-family: Charm-Regular; font-size:14px;}
+.wrapper					{ margin: 0px auto; width: 1170px;}
+.clear						{ clear:both;}
+img							{ border: 0px;}
+ul,ol						{ list-style: none;}
+a							{ text-decoration: none; outline: none;}
+a:focus, a:active,a:visited	{ outline: none; border: 0px;}
+/******* Common Element CSS End *********/
+/*Common FrameWork Start*/
+
+ 
+.header						{width: 100%;border: 1px solid #111;}
+.header-top 				{background-color: #333333;color: #fff;padding: 12.5px 15px; }
+.header-top a.phone-no		{background-image: url(../images/phone-icon.png);background-repeat: no-repeat;background-position: 0% 50%;float: right;font-size: 20px;line-height: 25px;padding-left: 25px;text-decoration: none;color: #fff;}
+.header-top a.mail-id		{float: left;background-image:url(../images/mail-icon.png);background-repeat: no-repeat;font-size: 20px;line-height: 25px;padding-left: 30px;text-decoration: none;color: #fff;}
+.header-down 				{font-family: Charm-Bold; padding: 54px 30px; }
+.header-down ul li 			{display: inline-block; margin: 0px 33px ; font-size: 20px; vertical-align: middle;  }
+.header-down ul li img 		{padding: 0px 80px;}
+.header-down a 				{color: #111;}
+.header-down a:hover 		{color: #ccc;}
+
+@media only scree
+
+
+/****************End css***********************/

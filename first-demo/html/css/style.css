@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+/******* Fonts Face CSS Start **********/
+/********* Fonts Face CSS End **********/
+/******* Common Element CSS Start ******/
+* {-o-transition:.5s;-ms-transition:.5s;-moz-transition:.5s;-webkit-transition:.5s;transition:.5s;}
+*, *:before, *:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+*							{ margin: 0px; padding: 0px;}
+body						{ font-family: Arial, Helvetica, sans-serif; font-size:14px; background-image:url('../images/pattern.png');}
+.wrapper					{ margin: 0px auto; width: 1170px; background-color: #fff;}
+.clear						{ clear:both;}
+img							{ border: 0px;}
+ul,ol						{ list-style: none;}
+a							{ text-decoration: none; outline: none;}
+a:focus, a:active,a:visited	{ outline: none; border: 0px;}
+h1							{}
+h2							{}
+h3							{}
+h4							{}
+h5							{}
+h6							{}
+p							{}
+/******* Common Element CSS End *********/
+/*Common FrameWork Start*/
+.border-none				{ border: none !important; }.bg-none{ background: none !important;}.margint-none{ margin-top: 0px !important;}.marginr-none	{ margin-right: 0px !important;}.marginb-none{ margin-bottom: 0px !important;}.marginl-none	{ margin-left: 0px !important;}.margin-none{ margin: 0px !important;}.paddingt-none{ padding-top: 0px !important;}.paddingr-none{ padding-right: 0px !important;}.paddingb-none{ padding-bottom: 0px !important;}.paddingl-none{ padding-left: 0px !important;}.padding-none{ padding: 0px !important;}.fleft{ float: left !important;}.fright{ float: right !important;}.fnone{ float: none !important;}
+/*Common FrameWork Start*/
+/******* Header Section CSS Start *******/
+.header						{ width: 100%;   }
+.logo						{background-color: #f3f3f3; width: 400px;  padding: 12px 85px; float: left; }
+.logo img 					{ width: 100%; height: 60px; background-color: #f3f3f3;}
+.header_name				{ width:770px;  height: 84px; display: inline; float: left; background-color: #354046; color: #fff; text-align: center; }
+.header_name h1				{ font-size: 40px;line-height: 54px; text-transform: uppercase; padding: 15px 0px;}
+.menu 			    		{ width: 400px; color: #fff; float: left; }
+.menu ul li				    {background-color: #354046; width: 100%;  font-size: 16px; }
+.menu ul li a				{ text-decoration: none; color: #fff; padding: 17px 50px 17px 20px; display: block; text-align: justify; word-wrap:keep-all	;  }
+/*.menu ul li a img 			{ float: right; padding: 0px 30px;}*/
+.menu ul li 				{ background-image: url(../images/menu-arrow.png); background-position: 90% 50%; background-repeat: no-repeat;}
+.menu ul li:hover			{ background-color: #53bf85; }	
+ul.menu li a.selected	    {}
+/******* Header Section CSS End *********/
+/******* Banner section CSS Start *******/
+.side-bar					{ width: 400px; height: 1240px; background-color: #f3f3f3; float: left;  }
+.languages-dailects    		{ margin: 30px 15px; width: 375px; height:120px; background-color: #dedede; }
+.languages-dailects h3   	{ font-size: 28px; color: #148456; padding: 15px 40px; font-weight: normal; color: #3a434a}
+.languages-dailects a       {padding: 13px 0px; margin: 0px 20px; text-align: center; background-color:#e4e4e4; background-image: linear-gradient(360deg,#b2b2b2, #e4e4e4); border-radius: 10px; box-shadow: 10px;  border: 1px solid #b5b5b5; text-decoration: none; color: #111; display: block;}
+.languages-dailects a:hover { background-image: linear-gradient(180deg,#b2b2b2, #e4e4e4); }
+.dotted-line				{ margin: 35px 30px 0px 30px; width:350px; height: 40px;  border-top: 1px dashed black; }
+.content-sidebar			{ width: 340px;  padding: 0px 0px 0px 50px; font-size: 14px; line-height: 24px; text-align: center;}
+.sidebar-image				{margin: 10px 30px; width: 340px; height:235px;}
+.side-bar h2 				{padding: 80px 30px 0px 30px; font-size: 32px; text-align:  right; color: #40a269; font-weight: normal;}
+.sidebar-web-detail {text-align: right; font-size: 14px; padding: 5px 30px; line-height: 20px;}
+#side-bar-underline-text 		{ text-decoration: underline;}
+.banner 		   			{ float: right; display: inline; width: 770px; height: 425px; }
+.banner img 				{ width: 770px; height: 100%; overflow: hidden; text-align: center; }
+/******* Banner section CSS End *********/
+/******* Middle section CSS Start ******/
+.middle						{float: left; display: inline; padding: 25px 23px 25px 25px; }
+.middle h2					{font-size: 32px; margin: 15px 0px 0px 0px; text-transform: uppercase; color: #3a434a; ;}
+.content-image				{width: 225px; height: 155px; margin:15px 12px 0px 0px;}
+.content 					{width:715px;  padding: 15px 0px; font-size: 14px; display: block; line-height: 20px;}
+.content-image-footer		{width: 335px; height: 235px; margin: 40px 0px; float: left;}
+.contact-info				{padding: 15px; border: 1px solid #111; border-radius: 5px; width: 350px; height: 300px; display: inline; float: right;}
+.contact-info h5			{ font-size: 24px; }
+.contact-info p   			{ font-size: 14px; line-height: 18px; padding: 3px 0px 0px 0px;}
+.contact-info .address img 	{ margin: 35px 0px 0px 0px; float: left; display: block; }
+.address ul 				{ display: block; padding:30px 10px; text-decoration: none; float: left; }
+.address ul li 				{ font-size: 14px; line-height: 25px;}
+.contact-number img 		{ margin: 20px 0px 0px 0px; margin-right:10px;  float: left; display: block; }
+.contact-number p   		{ font-size: 14px; line-height: 25px; padding: 20px 10px 10px 10px;	}
+.contact-email img 	 		{ margin: 4px 0px 0px 0px;	 margin-right:10px;  float: left; display: block; }
+.contact-email p   			{ font-size: 14px; line-height: 25px; padding: 4px 10px 10px 10px;	}
+/******** Middle section CSS End *******/
+/***** Bottom section CSS Start *******/
+.footer 					{ padding: 30px;}
+.footer h2 					{ margin: 0px 20px; border: none; border-bottom: 2px dashed #111; display: inline-block; font-size: 32px;line-height: 50px; text-transform: uppercase; font-weight: normal;}
+.footer-address				{ width:100%; height: 200px; border: 1px solid #868a8d; margin: 20px 0px 0px 0px; border-radius: 5px; }
+.footer-address-left 		{width: 50%; float: left; display: inline;	}
+.footer-address-left h4 	{font-size: 24px; padding: 20px; font-weight: normal;}
+.underline-text				{font-size: 14px; text-transform: uppercase; margin-left: 20px; text-decoration: underline; line-height: 28px; text-transform: uppercase;}
+.footer-address-right 		{width: 50%; float: right; display: inline; padding: 20px; font-size: 14px;}
+.footer-address-right p 	{ display: block; line-height: 28px; text-align: right;}
+#underline-email			{ text-decoration: underline; text-align: right;}
+.copyright					{ width: 100%;  background-color:#354046; color: #fff; text-align:center; padding:20px;
+}
+.site-info					{}
+/****** Bottom section CSS End *******/
